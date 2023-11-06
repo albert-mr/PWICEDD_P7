@@ -1,7 +1,7 @@
 <template>
   <div class="text-container">
-    <div class="text1">GET SET FOR THE ACTION</div>
-    <div class="text2">TRAKIA</div>
+    <div class="text">GET SET FOR THE ACTION</div>
+    <div class="text">TRAKIA</div>
     <button class="button" @click="handleSignUp">Sign Up</button>
     <button class="button" @click="handleLogIn">Log In</button>
   </div>
@@ -35,14 +35,7 @@ body {
   text-align: center;
 }
 
-.text1 {
-  color: white;
-  font-size: 4vw;
-  font-family: 'Shadows Into Light', cursive;
-  font-weight: 400;
-}
-
-.text2 {
+.text {
   color: #1E1E1E;
   font-size: 4vw;
   font-family: 'Sigmar One', sans-serif;
