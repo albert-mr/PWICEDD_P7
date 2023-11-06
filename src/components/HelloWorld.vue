@@ -1,58 +1,63 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="text-container">
+    <div class="text1">GET SET FOR THE ACTION</div>
+    <div class="text2">TRAKIA</div>
+    <button class="button" @click="handleSignUp">Sign Up</button>
+    <button class="button" @click="handleLogIn">Log In</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+  methods: {
+    handleSignUp() {
+      // Add your SignUp logic here
+    },
+    handleLogIn() {
+      // Add your Log In logic here
+    },
+  },
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+body {
+  width: 100%;
+  height: 100vh;
+  background: #4056A8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.text-container {
+  text-align: center;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+.text1 {
+  color: white;
+  font-size: 4vw;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
 }
-a {
-  color: #42b983;
+
+.text2 {
+  color: #1E1E1E;
+  font-size: 4vw;
+  font-family: 'Sigmar One', sans-serif;
+  font-weight: 400;
+}
+
+.button {
+  width: 30%;
+  height: 6%;
+  position: relative;
+  background: #D9D9D9;
+  border-radius: 36px;
+  border: 3px black solid;
+  font-size: 2vw;
+  color: #1E1E1E;
+  margin: 5% 0;
 }
 </style>
