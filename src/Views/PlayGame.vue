@@ -5,10 +5,23 @@ import TopBar from '../Components/NavBar.vue';
 <template>
   <TopBar />
   <div class="CreateJoin-container">
-    <button class="play-button" @click="handle">Join Game</button>
-    <button class="play-button" @click="handle">Create Game</button>
+    <button class="play-button" @click="handleJoin">Join Game</button>
+    <button class="play-button" @click="handleCreate">Create Game</button>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    handleCreate() {
+      this.$router.push('/create-game');
+    },
+    handleJoin() {
+      this.$router.push('/join-game');
+    },
+  },
+};
+</script>
 
 <style>
 .CreateJoin-container {
@@ -30,7 +43,7 @@ import TopBar from '../Components/NavBar.vue';
   font-family: 'Sigmar One', sans-serif;
   font-weight: 400;
   border: 10px solid black;
-  margin: 100px; /* Adjust the margin as needed */
+  margin: 100px;
 }
 
 .play-button {

@@ -14,6 +14,13 @@ import TopBar from '../Components/NavBar.vue';
 </template>
 
 <script>
+export default {
+  methods: {
+    handleRanking() {
+      this.$router.push('/ranking');
+    },
+  },
+};
 </script>
 
 <style scoped>

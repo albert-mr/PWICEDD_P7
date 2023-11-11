@@ -9,6 +9,11 @@ import StoreSell from '../Views/StoreSell.vue';
 import StoreBuy from '../Views/StoreBuy.vue';
 import MainPage from '../Views/MainPage.vue';
 import Play from '../Views/PlayGame.vue';
+import BackPack from '../Views/BackPack.vue';
+import RankingList from '../Views/RankingList.vue';
+import ListGames from '../Views/ListGames.vue';
+import CreateGame from '../Views/CreateGame.vue';
+import JoinGame from '../Views/JoinGame.vue';
 
 const routes = [
   { path: '/', component: WelcomePage },
@@ -22,7 +27,12 @@ const routes = [
   { path: '/main', component: MainPage },
   { path: '/store-create', component: StoreCreate },
   { path: '/play', component: Play },
-
+  { path: '/backpack', component: BackPack },
+  { path: '/ranking', component: RankingList },
+  { path: '/games', component: ListGames },
+  { path: '/create-game', component: CreateGame },
+  { path: '/join-game', component: JoinGame },
+  { path: '/:notFound(.*)', redirect: '/' }
 ];
 
 const router = createRouter({
