@@ -58,27 +58,8 @@ export default {
   font-family: 'Sigmar One', sans-serif;
   color: #1E1E1E;
   margin: 5% 0;
-}
 
-
-/* Media query for mobile devices */
-@media (max-width: 767px) {
-  .text1 {
-    font-size: 8vw; /* Adjust font size for smaller screens */
-    margin: 10% 0; /* Increase top and bottom margin for spacing */
-  }
-
-  .text2 {
-    font-size: 8vw; /* Adjust font size for smaller screens */
-    margin: 10% 0; /* Increase top and bottom margin for spacing */
-  }
-
-  .button {
-    width: 80%;
-    max-width: 250px; /* Limit the button width on smaller screens */
-    font-size: 4vw; /* Adjust font size for smaller screens */
-    margin: 5% 0; /* Increase top and bottom margin for spacing */
-  }
+  cursor: pointer;
 }
 
 </style>
