@@ -1,6 +1,6 @@
 <template>
+  <header class="top-bar">TRAKIA</header>
   <div class="signup-container">
-    <header class="top-bar">TRAKIA</header>
     <div class="input-container">
       <input type="text" id="username" placeholder="Username" class="input" />
       <input type="password" id="password" placeholder="Password" class="input" />
@@ -20,9 +20,11 @@ export default {
 </script>
 
 <style scoped>
+
 body {
   margin: 0;
   padding: 0;
+
 }
 
 .signup-container {
@@ -37,13 +39,15 @@ body {
 }
 
 .top-bar {
-  height: 10%;
+  width: 100%;
   background: #D9D9D9;
   border-bottom: 7px solid black;
   text-align: center;
+  font-family: 'Sigmar One', sans-serif;
   color: #1E1E1E;
-  font-size: 3vw;
+  font-size: 5vw;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 0 2%;
 }
@@ -66,6 +70,7 @@ body {
   font-size: 2vw;
   margin: 5% 0;
   padding: 5px;
+  font-family: 'Sigmar One', sans-serif;
 }
 
 .signup-button {
@@ -75,4 +80,5 @@ body {
   margin: 5% 10%;
   cursor: pointer;
 }
+
 </style>
