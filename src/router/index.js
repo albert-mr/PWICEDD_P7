@@ -8,7 +8,7 @@ import StoreCreate from '../Views/StoreCreate.vue';
 import StoreSell from '../Views/StoreSell.vue';
 import StoreBuy from '../Views/StoreBuy.vue';
 import MainPage from '../Views/MainPage.vue';
-import Play from '../Views/Play.vue';
+import Play from '../Views/PlayGame.vue';
 
 const routes = [
   { path: '/', component: WelcomePage },
