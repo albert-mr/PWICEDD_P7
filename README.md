@@ -1,4 +1,5 @@
-# webproject
+# PWICEDD_P7
+JOIN [Configuration Reference](https://www.trakia.pro/). CLICK!
 
 ## Project setup
 ```
