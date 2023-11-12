@@ -1,5 +1,5 @@
 # PWICEDD_P7
-JOIN [Configuration Reference](https://www.trakia.pro/). CLICK!
+JOIN [TRAKIA](https://www.trakia.pro/) CLICK!
 
 ## Project setup
 ```
