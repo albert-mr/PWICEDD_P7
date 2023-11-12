@@ -14,6 +14,8 @@ import RankingList from '../Views/RankingList.vue';
 import ListGames from '../Views/ListGames.vue';
 import CreateGame from '../Views/CreateGame.vue';
 import JoinGame from '../Views/JoinGame.vue';
+import GridTest from '../Views/GridTest.vue';
+import InfoUser from '../Views/InfoUser.vue';
 
 const routes = [
   { path: '/', component: WelcomePage },
@@ -32,6 +34,8 @@ const routes = [
   { path: '/games', component: ListGames },
   { path: '/create-game', component: CreateGame },
   { path: '/join-game', component: JoinGame },
+  { path: '/grid', component: GridTest },
+  { path: '/user', component: InfoUser },
   { path: '/:notFound(.*)', redirect: '/' }
 ];
 

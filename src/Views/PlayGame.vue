@@ -54,4 +54,12 @@ export default {
   background-color: #d9d9d9;
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .play-button {
+    width: 80%; 
+    font-size: 26px; 
+    margin: 10px; 
+  }
+}
 </style>

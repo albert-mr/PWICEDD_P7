@@ -5,7 +5,7 @@
       <button class="header-button" @click="handleGame">Games</button>
       <button class="header-button" @click="handleRanking">Ranking</button>
       <button class="header-button" @click="toggleStoreMenu">Store</button>
-      <button class="profile-button">
+      <button class="profile-button" @click="handleProfile">
         <img src="@/assets/profile.png" alt="Profile Image" />
       </button>
     </div>
@@ -30,6 +30,10 @@ export default {
     },
     handleRanking() {
       this.$router.push('/search-ranking');
+    },
+
+    handleProfile() {
+      this.$router.push('/user');
     },
     handleGame() {
       this.$router.push('/search-game');

@@ -16,6 +16,13 @@ import TopBar from '../Components/NavBar.vue';
 </template>
 
 <script>
+export default {
+  methods: {
+    handleCreate() {
+      this.$router.push('/grid');
+    },
+  },
+};
 </script>
 
 <style scoped>
