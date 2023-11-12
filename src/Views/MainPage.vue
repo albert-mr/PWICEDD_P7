@@ -79,11 +79,5 @@ import TopBar from '../Components/NavBar.vue';
 }
 
 
-.image{
-    width: 18%; 
-    height: 20%; 
-    transform-origin: 0 0;
-}
-
 
 </style>
