@@ -58,8 +58,9 @@ export default {
 @media only screen and (max-width: 600px) {
   .play-button {
     width: 80%; 
-    font-size: 26px; 
+    font-size: 17px; 
     margin: 10px; 
+    text-align: center;
   }
 }
 </style>
