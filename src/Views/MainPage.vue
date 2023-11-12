@@ -73,7 +73,7 @@ import TopBar from '../Components/NavBar.vue';
 @media only screen and (max-width: 600px) {
   .play-button {
     width: 30%; 
-    font-size: 48px; 
+    font-size: 30px; 
     border: 5px solid black; 
   }
 }
