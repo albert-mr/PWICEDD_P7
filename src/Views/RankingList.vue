@@ -13,14 +13,6 @@ import TopBar from '../Components/NavBar.vue';
 
 <style scoped>
 
-.text3 {
-    color: white;
-    font-size: 4vw;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: 400;
-    margin-bottom: 2%;
-  }
-
 body {
   margin: 0;
   padding: 0;

@@ -99,18 +99,6 @@ export default {
     .header-button:hover {
       color: #4056A8;
     }
-  
-    .main-container {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      background: #4056A8;
-    }
-  
-    .background {
-      position: absolute;
-      background: #7F86CA;
-    }
 
     .store-menu {
     position: absolute;
