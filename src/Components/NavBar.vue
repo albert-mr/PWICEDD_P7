@@ -55,8 +55,21 @@ export default {
 </script>
   
   <style scoped>
+      @media only screen and (max-width: 600px) {
+        .top-bar {
+          width: 120%;
+          height: 10vh;
+          background: #D9D9D9;
+          font-family: 'Sigmar One', sans-serif;
+          border-bottom: 7px solid black;
+          font-size: 5vw;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+    }
     .top-bar {
-      width: 100vw;
+      width: 120%;
       height: 10vh;
       background: #D9D9D9;
       font-family: 'Sigmar One', sans-serif;

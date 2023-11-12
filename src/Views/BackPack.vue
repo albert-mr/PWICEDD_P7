@@ -47,10 +47,23 @@ import TopBar from '../Components/NavBar.vue';
   font-family: 'Sigmar One', sans-serif;
 }
 
-
 body {
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .sell-container {
+    min-height: 120vh;
+    width: 200%;
+    background: #4056A8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Sigmar One', sans-serif;
+  }
 }
 
 .sell-container {

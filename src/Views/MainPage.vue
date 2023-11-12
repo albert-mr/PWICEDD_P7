@@ -76,6 +76,17 @@ import TopBar from '../Components/NavBar.vue';
     font-size: 30px; 
     border: 5px solid black; 
   }
+
+  .mainPage-container {
+    width: 120%;
+    height: 90vh;
+    background: #4056A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
 }
 
 

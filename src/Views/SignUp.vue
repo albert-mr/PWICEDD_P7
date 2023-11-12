@@ -27,6 +27,19 @@ body {
 
 }
 
+@media only screen and (max-width: 600px) {
+  .signup-container {
+    min-height: 100vh;
+    background: #4056A8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Sigmar One', sans-serif;
+  }
+}
+
 .signup-container {
   min-height: 100vh;
   background: #4056A8;

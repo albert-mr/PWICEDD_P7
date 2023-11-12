@@ -44,6 +44,18 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Sigmar+One&display=swap');
 
+@media only screen and (max-width: 600px) {
+  .container-horizontal {
+    width: 120%;
+    height: 120%;
+    background: #4056A8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .container-horizontal {
   width: 100%;
   height: 100vh;

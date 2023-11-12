@@ -18,6 +18,20 @@ body {
   padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .sell-container {
+    min-height: 120%;
+    width: 120%;
+    background: #4056A8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Sigmar One', sans-serif;
+  }
+}
+
 .sell-container {
   min-height: 100vh;
   background: #4056A8;

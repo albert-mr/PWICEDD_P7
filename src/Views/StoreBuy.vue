@@ -23,6 +23,21 @@ import TopBar from '../Components/NavBar.vue';
 </template>
 
 <style scoped>
+
+@media only screen and (max-width: 600px) {
+  .sell-container {
+    min-height: 120%;
+    width: 120%;
+    background: #4056A8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Sigmar One', sans-serif;
+  }
+}
+
 .login-button {
   height: 6%;
   background: #D9D9D9;

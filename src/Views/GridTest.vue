@@ -20,4 +20,15 @@ import Grid from '../Components/GridPlay.vue';
   align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .Grid-container {
+    width: 120%;
+    height: 120%;
+    background: #4056A8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 </style>

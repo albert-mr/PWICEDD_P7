@@ -62,5 +62,14 @@ export default {
     margin: 10px; 
     text-align: center;
   }
+
+  .CreateJoin-container {
+  width: 120%;
+  height: 120%;
+  background: #4056A8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
 </style>
