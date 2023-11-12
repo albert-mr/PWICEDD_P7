@@ -1,4 +1,4 @@
-<script setup>
+ <script setup>
 import TopBar from '../Components/NavBar.vue';
 </script>
 
@@ -6,7 +6,7 @@ import TopBar from '../Components/NavBar.vue';
   <TopBar />
     <div class="mainPage-container">
         <div class="text3">Victory is just a click away</div>
-        <img style="image" src="@/assets/arrow.png" />
+        <img class="image" src="@/assets/arrow.png" />
         <button class="play-button"  @click="handlePlay">Play</button>
     </div>
 </template>
@@ -28,12 +28,13 @@ import TopBar from '../Components/NavBar.vue';
 
 .mainPage-container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background: #4056A8;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 }
 .text3 {
     color: white;

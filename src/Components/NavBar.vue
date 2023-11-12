@@ -52,7 +52,8 @@ export default {
   
   <style scoped>
     .top-bar {
-      width: 100%;
+      width: 100vw;
+      height: 10vh;
       background: #D9D9D9;
       font-family: 'Sigmar One', sans-serif;
       border-bottom: 7px solid black;
@@ -60,7 +61,6 @@ export default {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 2%;
     }
   
     .buttons {
