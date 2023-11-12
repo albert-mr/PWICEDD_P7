@@ -55,7 +55,7 @@ export default {
 </script>
   
   <style scoped>
-      @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) {
         .top-bar {
           width: 120%;
           height: 10vh;
@@ -69,7 +69,7 @@ export default {
         }
     }
     .top-bar {
-      width: 120%;
+      width: 100%;
       height: 10vh;
       background: #D9D9D9;
       font-family: 'Sigmar One', sans-serif;
