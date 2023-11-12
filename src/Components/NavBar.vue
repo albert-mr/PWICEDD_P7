@@ -57,7 +57,7 @@ export default {
   <style scoped>
     @media only screen and (max-width: 600px) {
         .top-bar {
-          width: 120%;
+          width: 120vw;
           height: 10vh;
           background: #D9D9D9;
           font-family: 'Sigmar One', sans-serif;
@@ -69,7 +69,6 @@ export default {
         }
     }
     .top-bar {
-      width: 100%;
       height: 10vh;
       background: #D9D9D9;
       font-family: 'Sigmar One', sans-serif;
